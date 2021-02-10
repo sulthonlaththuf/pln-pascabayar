@@ -1,0 +1,5 @@
+// idPelanggan
+// Date
+// jumlahMeter
+// status
+

@@ -1,0 +1,28 @@
+*User*
+username (String)
+password (String)
+noMeter (Number)
+jenisTarif (String)
+role (enum / String)
+
+*jenisTarif*
+kodeTarif
+Daya
+tarifPerKwh
+
+*Penggunaan*
+date (date)
+meterAwal (Number)
+meterAkhir (Number)
+
+*Tagihan*
+date (date)
+jumlahMeter (Number)
+status (String)
+
+*Pembayaran*
+idBayar
+idPelanggan
+Tanggal
+BulanBayar
+biayaAdmin
