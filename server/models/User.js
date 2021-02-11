@@ -16,14 +16,14 @@ const UserSchema = new mongoose.Schema({
 		type: Number,
 		required: true
 	},
-	JenisTarif: {
-		type: mongoose.Schema.Types.ObjectId,
-		ref: "JenisTarif"
-	},
 	role: {
 		type: String,
 		enum: ['admin', 'officer', 'user'],
 		required: 'true'
+	},
+	JenisTarif: {
+		type: mongoose.Schema.Types.ObjectId,
+		ref: "JenisTarif"
 	}
 },
 	{
